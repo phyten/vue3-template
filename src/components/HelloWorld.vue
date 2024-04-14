@@ -16,7 +16,7 @@
 <script lang="ts">
 export default {
   name: 'HelloWorld'
-}
+};
 </script>
 
 <script setup lang="ts">
@@ -25,7 +25,7 @@ defineProps({
     type: String,
     default: ''
   }
-})
+});
 </script>
 
 <style lang="scss" scoped>

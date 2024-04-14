@@ -7,6 +7,13 @@ module.exports = {
       rules: {
         'vue/multi-word-component-names': 'off'
       }
+    },
+    {
+      files: ['*.vue'],
+      rules: {
+        semi: ['error', 'always'],
+        'prettier/prettier': 'off'
+      }
     }
   ]
-}
+};

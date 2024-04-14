@@ -28,15 +28,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-const navbarExpanded = ref(false)
+const navbarExpanded = ref(false);
 
 const toggleNavbar = () => {
-  navbarExpanded.value = !navbarExpanded.value
-}
+  navbarExpanded.value = !navbarExpanded.value;
+};
 
 const collapseNavbar = () => {
-  navbarExpanded.value = false
-}
+  navbarExpanded.value = false;
+};
 </script>
