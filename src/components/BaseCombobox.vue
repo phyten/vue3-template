@@ -41,21 +41,21 @@
 import { computed, defineEmits, defineProps, ref } from 'vue';
 
 interface Option {
-  value?: string | number
-  label?: string
+  value?: string | number;
+  label?: string;
 }
 
 interface Props {
-  options: Option[]
-  modelValue: Option
-  noMatchFound: boolean
+  options: Option[];
+  modelValue: Option;
+  noMatchFound: boolean;
 }
 
 const props = defineProps<Props>();
 
 const emit = defineEmits<{
-  (event: 'update:modelValue', value: Option): void
-  (event: 'update:noMatchFound', value: boolean): void
+  (event: 'update:modelValue', value: Option): void;
+  (event: 'update:noMatchFound', value: boolean): void;
 }>();
 
 const highlightedIndex = ref<number>(-1); // 現在ハイライトされているオプションのインデックス、-1 はハイライトされていない状態
