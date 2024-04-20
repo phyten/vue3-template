@@ -13,8 +13,7 @@
     "lint": "eslint \"**/*.{vue,ts,js}\"",
     "lint-fix": "eslint --fix \"**/*.{vue,ts,js}\"",
     "test:unit": "jest",
-    "typecheck": "vue-tsc --noEmit",
-    "prepare": "husky"
+    "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
